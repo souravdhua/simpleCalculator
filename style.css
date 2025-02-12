@@ -1,0 +1,132 @@
+body {
+    background-image: url("https://img.freepik.com/free-vector/mathematical-geometric-background-vector-gradient-blue-education-remix_53876-114100.jpg?t=st=1738519168~exp=1738522768~hmac=3a31725301e4056cf260d6cff070aa9dc627bd18407919c1ce377ff14ccdd4be&w=740");
+}
+
+* {
+    box-sizing: border-box;
+    /* font-style: italic; */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#display {
+    height: 80px;
+    width: 650px;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(0, 109, 109);
+    color: #b6fff9;
+    text-align: center;
+    padding-top: 15px;
+    letter-spacing: 5px;
+    border-radius: 20px 20px 0px 0px;
+    margin-bottom: 20px;
+}
+
+#keypad {
+    width: 650px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: auto;
+    margin-right: auto;
+    gap: 10px;
+}
+
+#keypad>button {
+    height: 60px;
+    font-size: 25px;
+    font-weight: bolder;
+    background-color: rgb(255, 210, 210);
+    border: none;
+}
+
+#keypad>button:nth-child(odd):hover {
+    background-color: chartreuse;
+    color: rgb(0, 0, 153);
+}
+#keypad > button:nth-child(even):hover{
+    background-color: rgb(44, 139, 0);
+    color:rgb(208, 255, 0) ;
+}
+#keypad > button:nth-child(10){
+    background-color: rgb(201, 80, 0);
+    color:#c1d7ff ;
+    font-size: 40px;
+}
+#keypad > button:nth-child(10):hover{
+    background-color: rgb(98, 0, 117);
+    color:rgb(255, 55, 20);
+}
+
+#keypad > button:nth-child(12){
+    padding-bottom: 40px;
+    background-color: rgb(255, 196, 147);
+    color:rgb(0, 0, 0) ;
+    font-size: 40px;
+}
+#keypad > button:nth-child(12):hover{
+    background-color: rgb(191, 255, 252);
+    color:rgb(39, 0, 0) ;
+}
+
+/* #keypad>button:nth-child(11),
+#keypad>button:nth-child(9),
+#keypad>button:nth-child(7),
+#keypad>button:nth-child(5),
+#keypad>button:nth-child(3),
+#keypad>button:nth-child(1) {
+    background-color: rgb(43, 226, 150);
+
+} */
+
+#keypad > button:nth-child(odd){
+    background-color: rgb(43, 226, 150);
+}
+
+#ops {
+    height: 40px;
+    width: 650px;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 10px;
+
+}
+
+#ops>button {
+    height: 60px;
+    background-color: rgb(0, 75, 46);
+    border: none;
+    border-radius: 10px;
+    color: rgb(107, 255, 132);
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+#equal {
+
+    margin-top: 40px;
+    margin-left: 348px;
+    border-radius: 0px 0px 20px 20px;
+    height: 80px;
+    width: 650px;
+    font-size: 60px;
+    font-weight: bolder;
+    background-color: rgb(7, 115, 177);
+    color: rgb(202, 240, 255);
+    border: none;
+    
+}
+
+#equal:hover{
+    background-color: rgb(100, 255, 229) ;
+    color:rgb(0, 21, 88) ;
+    
+}
+
+/* #clr{
+    background-color: red;   
+} */
